@@ -210,7 +210,7 @@ git switch {branch-name}
    >
    > //example: SSHISTF1T2U4S5 === SS => HIST => Form1 => Term2 => Unit4 => SSHISTF1T2U4S5
    >
-   > ![](./README-assets\2026-05-13-105858.png)
+   > ![](./README-assets/2026-05-13-105858.png)
    
 ### NOTE: You should only have ONE HTML file that you are working on <!-- omit from toc -->
 
