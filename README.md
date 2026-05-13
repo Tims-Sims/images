@@ -22,18 +22,18 @@ Steps related to your role are shown and linked in the table below
 - [4. Switching to Another Branch](#4-switching-to-another-branch)
   - [4.1. VSCode](#41-vscode)
   - [4.2. Terminal](#42-terminal)
-- [6. File Structure](#6-file-structure)
-- [7. Pulling Changes](#7-pulling-changes)
-  - [7.1. VSCode](#71-vscode)
-  - [7.2. Terminal](#72-terminal)
-- [8. Committing Changes](#8-committing-changes)
-  - [8.1. General Information](#81-general-information)
-  - [8.2. VSCode](#82-vscode)
-  - [8.3. Terminal](#83-terminal)
-- [9. Leaving Comments](#9-leaving-comments)
-- [10. Pull Requests](#10-pull-requests)
-- [11. Pull Request Review \& Approval](#11-pull-request-review--approval)
-- [12. Delete This README if you haven't already](#12-delete-this-readme-if-you-havent-already)
+- [5. File Structure](#5-file-structure)
+- [6. Pulling Changes](#6-pulling-changes)
+  - [6.1. VSCode](#61-vscode)
+  - [6.2. Terminal](#62-terminal)
+- [7. Committing Changes](#7-committing-changes)
+  - [7.1. General Information](#71-general-information)
+  - [7.2. VSCode](#72-vscode)
+  - [7.3. Terminal](#73-terminal)
+- [8. Leaving Comments](#8-leaving-comments)
+- [9. Pull Requests](#9-pull-requests)
+- [10. Pull Request Review \& Approval](#10-pull-request-review--approval)
+- [11. Delete This README if you haven't already](#11-delete-this-readme-if-you-havent-already)
 
 
 # 1. Prerequisites
@@ -187,7 +187,7 @@ git switch {branch-name}
 
 //example: git switch ELAF1T2U4S5
 
-# 6. File Structure
+# 5. File Structure
 
 **ENSURE FILE STRUCTURE IS PRESENT SO THAT THERE WILL BE NO MERGE CONFLICTS**
 
@@ -210,19 +210,19 @@ git switch {branch-name}
 ### NOTE: You should only have ONE HTML file that you are working on <!-- omit from toc -->
 
 
-# 7. Pulling Changes
+# 6. Pulling Changes
 
 Changes made and pushed by others do not automatically show up, you must pull updates from the repository. This can be for many reasons such as a tester that is currently testing a branch while the developer is making changes
 
 You can pull changes both within the terminal and on VSCode. We will go through how to do so on both
 
-## 7.1. VSCode
+## 6.1. VSCode
 
 1. Use the "Synchronize" button in VSCode
 
 <img title="" src="./README-assets/b3b0ca493e35426e6b7890e6ef0fb25cc6e91e7d.png" alt="" data-align="center">
 
-## 7.2. Terminal
+## 6.2. Terminal
 
 1. Pull Changes using the following command
 
@@ -230,11 +230,11 @@ You can pull changes both within the terminal and on VSCode. We will go through 
    git pull
    ```
 
-# 8. Committing Changes
+# 7. Committing Changes
 
 You can commit changes both within the terminal and on VSCode. We will go through how to do so on both.
 
-## 8.1. General Information
+## 7.1. General Information
 
 1. When committing changes, ALWAYS start the commit messages with the issue number, this makes the commit show up within the issue thread.
    //example: #9999 fixed x, y and z
@@ -243,7 +243,7 @@ You can commit changes both within the terminal and on VSCode. We will go throug
 
 3. Repeat steps as needed
 
-## 8.2. VSCode
+## 7.2. VSCode
 
 1. Once you have made changes, go to source control in VSCode to see all the files you have changed
 
@@ -262,7 +262,7 @@ You can commit changes both within the terminal and on VSCode. We will go throug
 
    <img title="" src="./README-assets/80eac4c99bd1e535bb772a94e5d0d4d2f1619083.png" alt="" data-align="center">
 
-## 8.3. Terminal
+## 7.3. Terminal
 
 1. Once you are within the code directory, stage your changes
 
@@ -304,7 +304,7 @@ If it is your first push on the branch, you should set the upstream with your fi
 git push origin {branch-name}
 ```
 
-# 9. Leaving Comments
+# 8. Leaving Comments
 
 1. When you see an issue labelled **review needed**. Time to test
 
@@ -320,7 +320,7 @@ git push origin {branch-name}
 
    <img title="" src="./README-assets/ed3f5a637f056f1d1c9b702f508f10a32dc56b38.png" alt="" data-align="center">
 
-# 10. Pull Requests
+# 9. Pull Requests
 
 1. Once a sim is labelled **done** in its specific issue thread, testers may open a pull request to merge into main
 
@@ -336,7 +336,7 @@ git push origin {branch-name}
 
 5. Create Pull Request and rename to ensure it is the same as the branch (PR names generate a bit weird so you 99% will have to change it)
 
-# 11. Pull Request Review & Approval
+# 10. Pull Request Review & Approval
 
 1. The content liaison for the created sim subject and an admin tester would review the Pull Request one final time to ensure quality.
 
@@ -346,4 +346,4 @@ git push origin {branch-name}
 
 4. Once all reviewers have approved the Pull Request, an admin can finally merge the sim into the main branch.
 
-# 12. Delete This README if you haven't already
+# 11. Delete This README if you haven't already
