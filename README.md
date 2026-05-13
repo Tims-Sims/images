@@ -8,11 +8,11 @@ Steps related to your role are shown and linked in the table below
 
 | Role             | Relevant Topics |
 | ---------------- | :-------------- |
-| All | [Prerequisites](#1-prerequisites) \| [Cloning The Repository](#2-cloning-the-repository) \| [Switching to Another Branch](#4-switching-to-another-branch) \| [Pulling Changes](#7-pulling-changes) |
-| Content Liaisons | [Creating a New Branch](#3-creating-a-new-branch) \| [Leaving Comments](#9-leaving-comments) \| [Pull Request Review \& Approval](#11-pull-request-review--approval) |
-| Developers       | [File Structure](#6-file-structure) \| [Committing Changes](#8-committing-changes) |
-| QA Testers       | [Leaving Comments](#9-leaving-comments) \| [Pull Requests](#10-pull-requests) \| [Pull Request Review \& Approval](#11-pull-request-review--approval) |
-| Admins           | [Pull Request Review \& Approval](#11-pull-request-review--approval) |
+| All | [Prerequisites](#1-prerequisites) \| [Cloning The Repository](#2-cloning-the-repository) \| [Switching to Another Branch](#4-switching-to-another-branch) \| [Pulling Changes](#6-pulling-changes) |
+| Content Liaisons | [Creating a New Branch](#3-creating-a-new-branch) \| [Leaving Comments](#8-leaving-comments) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
+| Developers       | [File Structure](#5-file-structure) \| [Committing Changes](#7-committing-changes) |
+| QA Testers       | [Leaving Comments](#8-leaving-comments) \| [Pull Requests](#9-pull-requests) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
+| Admins           | [Pull Request Review \& Approval](#10-pull-request-review--approval) |
 
 # Table of Contents <!-- omit from toc -->
 
@@ -49,7 +49,7 @@ Steps related to your role are shown and linked in the table below
      ```
 
      If this returns a version number, Congrats! You have successfully installed Git
-     At the time of writing, the current windows git version is "2.53.0.windows.1"
+     At the time of writing, the current windows git version is "2.54.0.windows.1"
 
      If there are errors, try running the installer again
 
@@ -142,6 +142,11 @@ code .
    > {Subject}{Form}{Term}{Unit}{Section}
    >
    > //example: English, Form 1, Term 2, Unit 4, Section 5 === ELAF1T2U4S5
+   >
+   > ---
+   > For subjects like Integrated Science and Social Science with sub-subjects there is an additional folder
+   >
+   > {Main Subject}{Subject}{Form}{Term}{Unit}{Section}
    >
    > //example: Social Science, History, Form 1, Term 2, Unit 4, Section 5 === SSHISTF1T2U4S5
 
