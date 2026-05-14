@@ -2,6 +2,8 @@
 
 This guide shows the overall process of simulation creation.
 
+The [Appendix](#12-appendix) holds quick explanation of terms used among others
+
 Steps related to your role are shown and linked in the table below
 
 # Team-relevant Sections <!-- omit from toc -->
@@ -9,8 +11,8 @@ Steps related to your role are shown and linked in the table below
 | Role             | Relevant Topics |
 | ---------------- | :-------------- |
 | All | [Prerequisites](#1-prerequisites) \| [Cloning The Repository](#2-cloning-the-repository) \| [Switching to Another Branch](#4-switching-to-another-branch) \| [Pulling Changes](#6-pulling-changes) |
-| Content Liaisons | [Creating a New Branch](#3-creating-a-new-branch) \| [Leaving Comments](#8-leaving-comments) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
-| Developers       | [File Structure](#5-file-structure) \| [Committing Changes](#7-committing-changes) |
+| Content Liaisons | [Creating a New Branch and Issue](#3-creating-a-new-branch) \| [Leaving Comments](#8-leaving-comments) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
+| Developers       | [Assigning Yourself to an Issue](#4-assigning-yourself-to-an-issue) \| [File Structure](#5-file-structure) \| [Committing Changes](#7-committing-changes) |
 | QA Testers       | [Leaving Comments](#8-leaving-comments) \| [Pull Requests](#9-pull-requests) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
 | Admins           | [Pull Request Review \& Approval](#10-pull-request-review--approval) |
 
@@ -18,22 +20,27 @@ Steps related to your role are shown and linked in the table below
 
 - [1. Prerequisites](#1-prerequisites)
 - [2. Cloning The Repository](#2-cloning-the-repository)
-- [3. Creating a New Branch](#3-creating-a-new-branch)
-- [4. Switching to Another Branch](#4-switching-to-another-branch)
-  - [4.1. VSCode](#41-vscode)
-  - [4.2. Terminal](#42-terminal)
-- [5. File Structure](#5-file-structure)
-- [6. Pulling Changes](#6-pulling-changes)
-  - [6.1. VSCode](#61-vscode)
-  - [6.2. Terminal](#62-terminal)
-- [7. Committing Changes](#7-committing-changes)
-  - [7.1. General Information](#71-general-information)
-  - [7.2. VSCode](#72-vscode)
-  - [7.3. Terminal](#73-terminal)
-- [8. Leaving Comments](#8-leaving-comments)
-- [9. Pull Requests](#9-pull-requests)
-- [10. Pull Request Review \& Approval](#10-pull-request-review--approval)
-- [11. Delete This README if you haven't already](#11-delete-this-readme-if-you-havent-already)
+- [3. Creating a New Branch and Issue](#3-creating-a-new-branch-and-issue)
+- [4. Assigning Yourself to an Issue](#4-assigning-yourself-to-an-issue)
+- [5. Switching to Another Branch](#5-switching-to-another-branch)
+  - [5.1. VSCode](#51-vscode)
+  - [5.2. Terminal](#52-terminal)
+- [6. File Structure](#6-file-structure)
+- [7. Pulling Changes](#7-pulling-changes)
+  - [7.1. VSCode](#71-vscode)
+  - [7.2. Terminal](#72-terminal)
+- [8. Committing Changes](#8-committing-changes)
+  - [8.1. General Information](#81-general-information)
+  - [8.2. VSCode](#82-vscode)
+  - [8.3. Terminal](#83-terminal)
+- [9. Leaving Comments](#9-leaving-comments)
+- [10. Pull Requests](#10-pull-requests)
+- [11. Pull Request Review \& Approval](#11-pull-request-review--approval)
+- [12. Delete This README if you haven't already](#12-delete-this-readme-if-you-havent-already)
+- [13. Appendix](#13-appendix)
+  - [13.1. Git Commands](#131-git-commands)
+  - [13.2. Github Terms](#132-github-terms)
+  - [13.3. VSCode Terms](#133-vscode-terms)
 
 
 # 1. Prerequisites
@@ -71,6 +78,10 @@ Steps related to your role are shown and linked in the table below
    - Install VSCode from [this link](https://code.visualstudio.com/download)
    - Click through the install, **YOU DO NOT NEED TO CHANGE ANY OPTIONS**
    - Launch VSCode and sign into your Github account
+   - Install the GitHub Pull Requests extension.
+     - Go to the Extensions tab in the sidebar and search for "GitHub Pull Requests" </br>  
+     <img title="" src="./README-assets/2026-05-14-103813.png" alt="" data-align="center">
+     - Install the extension
 
 # 2. Cloning The Repository
 
@@ -100,7 +111,7 @@ cd simulations
 code .
 ```
 
-# 3. Creating a New Branch
+# 3. Creating a New Branch and Issue
 
 1. In the [simulations repository](https://github.com/Tims-Sims/simulations), click on **main** and in the drop down, select "View all branches" **OR** Go to [this link](https://github.com/Tims-Sims/simulations/branches)
 
@@ -150,11 +161,12 @@ code .
    >
    > //example: Social Science, History, Form 1, Term 2, Unit 4, Section 5 === SSHISTF1T2U4S5
 
-5. Open an issue (Issues -> New Issue) and name it the same as the branch created
+5. Open an issue (Top Bar -> Issues -> New Issue) and name it the same as the branch created
 
    <img title="" src="./README-assets/fe50699b483e33c2cb8de4e7b20c8f010789a3d3.png" alt="" data-align="center">
 
-6. Set the issue label to **"dev needed"**
+6. In the description, put the Simulation spec provided by the content team
+7. Set the issue label to **"dev needed"**
 
    <img title="" src="./README-assets/ab44614cd96de633902c4c9d7db7bf71e44e98b6.png" alt="" data-align="center">
 
@@ -162,21 +174,43 @@ code .
 
    <img title="" src="./README-assets/33674f7e99f0d42a53fec81484cfd304522b9a12.png" alt="" data-align="center">
 
-# 4. Switching to Another Branch
+# 4. Assigning Yourself to an Issue
+
+1. In the Issues tab in the top bar, click the labels button and in the drop down, select the "dev needed" label to filter only issues that need developers
+    
+   <img title="" src="./README-assets/2026-05-14-141638.png" alt="" data-align="center">
+
+2. Once you have selected an issue that needs a developer, click the "assign yourself" button to assign yourself to the issue
+   
+   <img title="" src="./README-assets/2026-05-14-142505.png" alt="" data-align="center">
+   
+3. Remove the "dev needed" label and select the "in progress" label
+   
+   <img title="" src="./README-assets/2026-05-14-142738.png" alt="" data-align="center">
+
+# 5. Switching to Another Branch
 
 You can switch branches both within the terminal and on VSCode. We will go through how to do so on both.
 
-## 4.1. VSCode
+## 5.1. VSCode
 
-1. Click the "Synchronize" button on the bottom bar while the folder is open to update all branches
+1. Go to the "Source Control" tab in the sidebar
+   
+   <img title="" src="./README-assets/2026-05-14-112308.png" alt="" data-align="center">
+2. Click the three dots (...) within the "CHANGES" bar
+   
+   <img title="" src="./README-assets/2026-05-14-112612.png" alt="" data-align="center">
+3. Click "Fetch"
+   
+   <img title="" src="./README-assets/2026-05-14-11272.png" alt="" data-align="center">
 
-<img title="" src="./README-assets/9872b0cf9614c5591738caf40a28f27dfabee211.png" alt="" data-align="center">
-
-2. Click the button to the left of "Synchronize", search for the branch name and select it to switch branches
+4. Click the button to the left of the "Synchronize" button that shows the name of the current branch you are on, search for the branch name and select it to switch branches
 
 <img title="" src="./README-assets/1b26bba13fa415467f24c9a7fceb9f009202872c.png" alt="" data-align="center">
 
-## 4.2. Terminal
+### NOTE: When you start a development session, you should always fetch <!-- omit from toc -->
+
+## 5.2. Terminal
 
 1. The fetch command updates the available branches
 
@@ -192,7 +226,7 @@ git switch {branch-name}
 
 //example: git switch ELAF1T2U4S5
 
-# 5. File Structure
+# 6. File Structure
 
 **ENSURE FILE STRUCTURE IS PRESENT SO THAT THERE WILL BE NO MERGE CONFLICTS**
 
@@ -215,19 +249,19 @@ git switch {branch-name}
 ### NOTE: You should only have ONE HTML file that you are working on <!-- omit from toc -->
 
 
-# 6. Pulling Changes
+# 7. Pulling Changes
 
 Changes made and pushed by others do not automatically show up, you must pull updates from the repository. This can be for many reasons such as a tester that is currently testing a branch while the developer is making changes
 
 You can pull changes both within the terminal and on VSCode. We will go through how to do so on both
 
-## 6.1. VSCode
+## 7.1. VSCode
 
 1. Use the "Synchronize" button in VSCode
 
 <img title="" src="./README-assets/b3b0ca493e35426e6b7890e6ef0fb25cc6e91e7d.png" alt="" data-align="center">
 
-## 6.2. Terminal
+## 7.2. Terminal
 
 1. Pull Changes using the following command
 
@@ -235,11 +269,11 @@ You can pull changes both within the terminal and on VSCode. We will go through 
    git pull
    ```
 
-# 7. Committing Changes
+# 8. Committing Changes
 
 You can commit changes both within the terminal and on VSCode. We will go through how to do so on both.
 
-## 7.1. General Information
+## 8.1. General Information
 
 1. When committing changes, ALWAYS start the commit messages with the issue number, this makes the commit show up within the issue thread.
    //example: #9999 fixed x, y and z
@@ -248,7 +282,7 @@ You can commit changes both within the terminal and on VSCode. We will go throug
 
 3. Repeat steps as needed
 
-## 7.2. VSCode
+## 8.2. VSCode
 
 1. Once you have made changes, go to source control in VSCode to see all the files you have changed
 
@@ -267,7 +301,7 @@ You can commit changes both within the terminal and on VSCode. We will go throug
 
    <img title="" src="./README-assets/80eac4c99bd1e535bb772a94e5d0d4d2f1619083.png" alt="" data-align="center">
 
-## 7.3. Terminal
+## 8.3. Terminal
 
 1. Once you are within the code directory, stage your changes
 
@@ -309,23 +343,29 @@ If it is your first push on the branch, you should set the upstream with your fi
 git push origin {branch-name}
 ```
 
-# 8. Leaving Comments
+# 9. Leaving Comments
 
-1. When you see an issue labelled **review needed**. Time to test
+1. In the Issues tab in the top bar, click the labels button and in the drop down, select the **"review needed"** label to filter only issues that are ready to be reviewed
+   
+   <img title="" src="./README-assets/2026-05-14-143358.png" alt="" data-align="center">
 
-2. You can click on the commit made to see the differences in the code
+2. Once you have selected an issue that needs reviewing, click the Assignees button to assign yourself to the issue. You may have to search for your name
+   
+   <img title="" src="./README-assets/2026-05-14-144339.png" alt="" data-align="center">
+
+3. You can click on the commit made to see the differences in the code
 
    <img title="" src="./README-assets/be03ae3223ddb45120eb7daecd66a5e2bf740370.png" alt="" data-align="center">
 
-3. Copy the commit hash (the number next the the word Commit in the title) and view the changes in red and green (the Git Diff). Testers can also pull the changes and test that way.
+4. Copy the commit hash (the number next the the word Commit in the title) and view the changes in red and green (the Git Diff). Testers can also pull the changes and test that way.
 
    <img title="" src="./README-assets/4b83c98699ce9167a49126e2683c61b9263214d4.png" alt="" data-align="center">
 
-4. Leave a comment starting with the commit hash so that it links to the specific commit and change the label to **review needed**
+5. Leave a comment starting with the commit hash so that it links to the specific commit and change the label to **changes needed**
 
    <img title="" src="./README-assets/ed3f5a637f056f1d1c9b702f508f10a32dc56b38.png" alt="" data-align="center">
 
-# 9. Pull Requests
+# 10. Pull Requests
 
 1. Once a sim is labelled **done** in its specific issue thread, testers may open a pull request to merge into main
 
@@ -341,7 +381,7 @@ git push origin {branch-name}
 
 5. Create Pull Request and rename to ensure it is the same as the branch (PR names generate a bit weird so you 99% will have to change it)
 
-# 10. Pull Request Review & Approval
+# 11. Pull Request Review & Approval
 
 1. The content liaison for the created sim subject and an admin tester would review the Pull Request one final time to ensure quality.
 
@@ -351,4 +391,20 @@ git push origin {branch-name}
 
 4. Once all reviewers have approved the Pull Request, an admin can finally merge the sim into the main branch.
 
-# 11. Delete This README if you haven't already
+# 12. Delete This README if you haven't already
+
+# 13. Appendix
+## 13.1. Git Commands
+| Command | What It Does |
+| ------- | ------------ |
+|||
+
+## 13.2. Github Terms
+| Term | What It Does |
+| ---- | ------------ |
+|||
+
+## 13.3. VSCode Terms
+| Term | What It Does |
+| ---- | ------------ |
+|||
