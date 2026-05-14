@@ -2,7 +2,7 @@
 
 This guide shows the overall process of simulation creation.
 
-The [Appendix](#12-appendix) holds quick explanation of terms used among others
+The [Appendix](#13-appendix) holds quick explanation of terms used among others
 
 Steps related to your role are shown and linked in the table below
 
@@ -10,11 +10,11 @@ Steps related to your role are shown and linked in the table below
 
 | Role             | Relevant Topics |
 | ---------------- | :-------------- |
-| All | [Prerequisites](#1-prerequisites) \| [Cloning The Repository](#2-cloning-the-repository) \| [Switching to Another Branch](#4-switching-to-another-branch) \| [Pulling Changes](#6-pulling-changes) |
-| Content Liaisons | [Creating a New Branch and Issue](#3-creating-a-new-branch) \| [Leaving Comments](#8-leaving-comments) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
-| Developers       | [Assigning Yourself to an Issue](#4-assigning-yourself-to-an-issue) \| [File Structure](#5-file-structure) \| [Committing Changes](#7-committing-changes) |
-| QA Testers       | [Leaving Comments](#8-leaving-comments) \| [Pull Requests](#9-pull-requests) \| [Pull Request Review \& Approval](#10-pull-request-review--approval) |
-| Admins           | [Pull Request Review \& Approval](#10-pull-request-review--approval) |
+| All | [Prerequisites](#1-prerequisites) \| [Cloning The Repository](#2-cloning-the-repository) \| [Switching to Another Branch](#5-switching-to-another-branch) \| [Pulling Changes](#7-pulling-changes) |
+| Content Liaisons | [Creating a New Branch and Issue](#3-creating-a-new-branch-and-issue) \| [Leaving Comments](#9-leaving-comments) \| [Pull Request Review \& Approval](#11-pull-request-review--approval) |
+| Developers       | [Assigning Yourself to an Issue](#4-assigning-yourself-to-an-issue) \| [File Structure](#6-file-structure) \| [Committing Changes](#8-committing-changes) |
+| QA Testers       | [Leaving Comments](#9-leaving-comments) \| [Pull Requests](#10-pull-requests) \| [Pull Request Review \& Approval](#11-pull-request-review--approval) |
+| Admins           | [Pull Request Review \& Approval](#11-pull-request-review--approval) |
 
 # Table of Contents <!-- omit from toc -->
 
