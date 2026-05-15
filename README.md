@@ -80,6 +80,11 @@ Steps related to your role are shown and linked in the table below
      - Go to the Extensions tab in the sidebar and search for "GitHub Pull Requests" </br>  
      <img title="" src="./README-assets/2026-05-14-103813.png" alt="" data-align="center">
      - Install the extension
+   - Install the Live Preview extension.
+     - Go to the Extensions tab in the sidebar and search for "Live Preview" </br>  
+     <img title="" src="./README-assets/2026-05-15-112642.png" alt="" data-align="center">
+     - Install the extension
+
 
 # 2. Cloning The Repository
 
@@ -290,6 +295,10 @@ You can commit changes both within the terminal and on VSCode. We will go throug
 2. Go to the issue and set the label to **review needed**
 
 3. Repeat steps as needed
+   
+4. While developing, you can see the simulation using the Live Preview extension, right-click the sim file and select the "Show Preview" button
+   
+   <img title="" src="./README-assets/2026-05-15-121859.png" alt="" data-align="center">
 
 ## 8.2. VSCode
 
@@ -370,7 +379,11 @@ git push origin {branch-name}
 
    <img title="" src="./README-assets/4b83c98699ce9167a49126e2683c61b9263214d4.png" alt="" data-align="center">
 
-5. Leave a comment starting with the commit hash so that it links to the specific commit and change the label to **changes needed**
+5. You can test the simulation using the VSCode Live Preview extension, right-click the sim file and select the "Show Preview" button
+   
+   <img title="" src="./README-assets/2026-05-15-121859.png" alt="" data-align="center">
+
+6. Leave a comment starting with the commit hash so that it links to the specific commit and change the label to **changes needed**
 
    <img title="" src="./README-assets/ed3f5a637f056f1d1c9b702f508f10a32dc56b38.png" alt="" data-align="center">
 
