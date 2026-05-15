@@ -2,7 +2,9 @@
 
 This guide shows the overall process of simulation creation.
 
+<!--
 The [Appendix](#13-appendix) holds quick explanation of terms used among others
+-->
 
 Steps related to your role are shown and linked in the table below
 
@@ -37,10 +39,6 @@ Steps related to your role are shown and linked in the table below
 - [10. Pull Requests](#10-pull-requests)
 - [11. Pull Request Review \& Approval](#11-pull-request-review--approval)
 - [12. Delete This README if you haven't already](#12-delete-this-readme-if-you-havent-already)
-- [13. Appendix](#13-appendix)
-  - [13.1. Git Commands](#131-git-commands)
-  - [13.2. Github Terms](#132-github-terms)
-  - [13.3. VSCode Terms](#133-vscode-terms)
 
 
 # 1. Prerequisites
@@ -188,6 +186,15 @@ code .
    
    <img title="" src="./README-assets/2026-05-14-142738.png" alt="" data-align="center">
 
+4. Now that you have assigned yourself, you can see the Issue thread within the Github Pull Requests extension inside of VSCode
+5. Click the Github logo button in the sidebar
+   
+   <img title="" src="./README-assets/2026-05-15-094917.png" alt="" data-align="center">
+
+6. In the Issues Section, you can see all issues you are assigned to and can do various things such as seeing the issue name, changing labels and assigning others without leaving VSCode. 
+   
+   <img title="" src="./README-assets/2026-05-15-095654.png" alt="" data-align="center">
+
 # 5. Switching to Another Branch
 
 You can switch branches both within the terminal and on VSCode. We will go through how to do so on both.
@@ -268,6 +275,8 @@ You can pull changes both within the terminal and on VSCode. We will go through 
    ```
    git pull
    ```
+
+### NOTE: You should periodically pull, especially if you just switched to the branch <!-- omit from toc -->
 
 # 8. Committing Changes
 
@@ -393,6 +402,7 @@ git push origin {branch-name}
 
 # 12. Delete This README if you haven't already
 
+<!--
 # 13. Appendix
 ## 13.1. Git Commands
 | Command | What It Does |
@@ -408,3 +418,4 @@ git push origin {branch-name}
 | Term | What It Does |
 | ---- | ------------ |
 |||
+-->
