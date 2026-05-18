@@ -153,16 +153,17 @@ code .
    > | Geography| GEO |
    > | History| HIST |
    >
-   > {Subject}{Form}{Term}{Unit}{Section}
+   > {Subject}{Form}{Term}{Unit}{Section}{Sim}
    >
-   > //example: English, Form 1, Term 2, Unit 4, Section 5 === ELAF1T2U4S5
+   > //example: English, Form 1, Term 2, Unit 4, Section 5, Sim 1=== ELA-F1-T2-U4-SEC5-SIM1
    >
    > ---
    > For subjects like Integrated Science and Social Science with sub-subjects there is an additional folder
    >
-   > {Main Subject}{Subject}{Form}{Term}{Unit}{Section}
+   > {Main Subject}{Subject}{Form}{Term}{Unit}{Section}{Sim}
    >
-   > //example: Social Science, History, Form 1, Term 2, Unit 4, Section 5 === SSHISTF1T2U4S5
+   > //example: Social Science, History, Form 1, Term 2, Unit 4, Section 5, Sim 1 === </br>
+   >SS-HIST-F1-T2-U4-SEC5-SIM1
 
 5. Open an issue (Top Bar -> Issues -> New Issue) and name it the same as the branch created
 
